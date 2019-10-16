@@ -1,0 +1,48 @@
+{
+    "name": "cluster_cc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cliffkang/cluster_CC.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cliffkang/cluster_CC/issues"
+    },
+    "homepage": "https://github.com/cliffkang/cluster_CC#readme",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "cookie-parser": "^1.4.4",
+        "express": "^4.17.1",
+        "js-cookie": "^2.2.1",
+        "next": "^9.1.1",
+        "next-cookie": "^2.0.0",
+        "next-redux-wrapper": "^4.0.1",
+        "react": "^16.10.2",
+        "react-dom": "^16.10.2",
+        "react-redux": "^7.1.1",
+        "redux": "^4.0.4",
+        "redux-devtools-extension": "^2.13.8",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^4.4.0"
+    },
+    "devDependencies": {
+        "babel-plugin-styled-components": "^1.10.6",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.1",
+        "eslint-plugin-react": "^7.16.0",
+        "eslint-plugin-react-hooks": "^1.7.0",
+        "prettier": "^1.18.2"
+    }
+}
