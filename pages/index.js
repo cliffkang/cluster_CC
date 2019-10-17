@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getPosts } from '../redux/actions/exampleActions';
+import NavigationBar from '../components/NavigationBar/NavigationBar';
+import Table from '../components/Table/Table';
 
 const Index = props => {
     const handleSubmit = e => {
@@ -9,6 +11,8 @@ const Index = props => {
     };
     return (
         <div>
+            <NavigationBar />
+            <Table />
             <div>Prop from Redux {JSON.stringify(props)}</div>
             <button onClick={handleSubmit}>Load</button>
             <div>Prop from getInitialProps {props.custom}</div>
