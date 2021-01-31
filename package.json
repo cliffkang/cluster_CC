@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/cliffkang/cluster_CC#readme",
     "dependencies": {
-        "axios": "^0.19.0",
+        "axios": "^0.21.1",
         "cookie-parser": "^1.4.4",
         "express": "^4.17.1",
         "js-cookie": "^2.2.1",
